@@ -41,7 +41,8 @@ year_four_chars = Format(Date, "yyyy") & "\"
 main_folder = "Dir:\Main folder\"
 file_type = ".pdf"
 file_name_extension = order_number  & file_type
-
+' To use main_folder as macro file folder
+' >> main_folder = ThisWorkbook.path
 ' order_type is subfolder of sub_system and sub_system is subfolders of main folder.
 ' Ex: Dir:\Main folder\sub_system\year_four_chars\order_type\.
 ' Create file path of file that you want to open.
